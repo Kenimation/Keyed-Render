@@ -1,0 +1,18 @@
+schema_version = "1.0.0"
+
+id = "keyed_render"
+version = "1.0.0"
+name = "Keyed Render"
+tagline = "Render keyed animation and create CSV Timesheet file."
+maintainer = "KEN <kken498@gmail.com>"
+type = "add-on"
+
+tags = [
+    "Render",
+]
+blender_version_min = "4.2.0"
+
+license = ["SPDX:GPL-3.0-or-later"]
+
+[permissions]
+files = "Export CSV file to disk"
